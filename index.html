@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chrset="UTF 8" />
+    <title>MAssago</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.9/angular-route.js"></script>
+    <!-- <script src="https://code.angularjs.org/1.5.9/angular.min.js"></script> -->
+    <link rel="stylesheet" href="./Angularpracticeview/css/style.min.css"/>
+    <link rel="stylesheet" href="./Angularpracticeview/css/style.min.css.map"/>
+
+  </head>
+
+  <body ng-app="sampleApp">
+    <div class="container">
+      <div ui-view>
+        <div ng-include="'views/common/content.html'"></div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/add-ctrl.js"></script>
+    <script src="js/show-ctrl.js"></script>
+  </body>
+</html>
