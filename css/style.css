@@ -3,4 +3,8 @@
   margin-top: 32px;
   width: 19%;
 }
+
+.navbar-default #side-menu {
+  background: red;
+}
 /*# sourceMappingURL=style.css.map */
